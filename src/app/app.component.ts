@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AppComponent implements OnInit {
   endpoint: string = "https://localhost:44325/api/christmas";
-  title = 'Christmas Countdown ';
+  title = 'Meet you on Christmas Eve in 40 days';
   response: any = "";
   constructor(private http: HttpClient) {
   }

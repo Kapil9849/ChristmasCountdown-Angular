@@ -1,2 +1,9 @@
 <h1 style="text-align: center;">{{title}}</h1>
 <h2 style="text-align: center;">Wishes from API: {{response}}</h2>
+<hr>
+<h1>Cocktails to celebrate :</h1>
+<ol>
+    <li *ngFor="let item of cocktail">
+        {{item.strAlcoholic}} - {{item.strCategory}} - {{item.strDrink}}
+    </li>
+</ol>
